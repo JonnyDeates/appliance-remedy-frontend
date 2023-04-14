@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.Testimonials {
+    font-family: 'Montserrat', sans-serif;
+    background-color: seashell;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.Testimonials h1 {
+    text-align: center;
+    padding: 0 0 1rem 0;
+    margin: 0;
+}
+.Testimonial h4{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+
+.Testimonial {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.Testimonials > div {
+    margin: -3rem auto 0 auto;
+
+}
+.Testimonial p {
+    background-color: white;
+    margin: 2rem 0 0 0 ;
+    width: 200px;
+    font-size: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    align-self: center;
+    box-shadow: 8px 8px 1px rgba(0, 0, 0, .3), 8px 8px 4px rgba(0, 0, 0, .1), 1px 1px 4px rgba(0, 0, 0, .2);
+    border-radius: 31px;
+    padding: 16px 16px 0 16px;
+}
+
+.Testimonial p:after {
+    border: 1em solid transparent;
+    border-top-color: white;
+    content: '';
+    position: relative;
+    top: 34px;
+    left: 58px;
+    filter: drop-shadow(8px 8px 1px rgba(0, 0, 0, .3)) drop-shadow(8px 8px 4px rgba(0, 0, 0, .1)) drop-shadow(1px 1px 0px rgba(0, 0, 0, .2));
+
+}
+.Testimonial img {
+    width: 50px;
+    height: 50px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-color: #af0104;
+    position: relative;
+    margin: auto;
+    border-radius: 100%;
+}
+.Testimonial .Left-button {
+    transform: rotate(180deg);
+    box-shadow: -1px -1px 1px rgba(0,0,0,0.4), -2px -2px 2px rgba(0,0,0,0.2), -4px -4px 6px rgba(0,0,0,0.1);
+
+}
+
+.Testimonial .Right-button {
+    right: 0;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4), 2px 2px 2px rgba(0,0,0,0.2), 4px 4px 6px rgba(0,0,0,0.1);
+
+}
+.Testimonial .Left-button:active {
+    box-shadow: inset -2px -2px 1px rgba(0,0,0,0.5);
+}
+.Testimonial .Right-button:active {
+    box-shadow: inset 2px 2px 1px rgba(0,0,0,0.5);
+}
+@media (min-width: 561px){
+    .Testimonial p {
+        width: 400px;
+        font-size: 1.4rem;
+        padding: 32px 32px 0 32px;;
+
+    }
+    .Testimonial h4{
+        font-size: xx-large;
+    }
+    .Testimonial p:after {
+        top: 48px;
+        left: 150px;
+    }
+    .Testimonial .Left-button {
+        left: -30px;
+    }
+
+    .Testimonial .Right-button {
+        right: -30px;
+
+    }
+}

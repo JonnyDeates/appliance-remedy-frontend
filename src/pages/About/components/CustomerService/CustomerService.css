@@ -1,0 +1,59 @@
+.CustomerService {
+    display: grid;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.CustomerService .ServiceBanner {
+    filter: brightness(0.4);
+}
+
+.CustomerService .Text {
+    margin: 2rem auto 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.CustomerService a {
+    display: flex;
+    justify-content: center;
+}
+
+.CustomerService img {
+    display: block;
+    width: 100px;
+    filter: brightness(0) invert(1);
+}
+
+.CustomerService h1 {
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.27em;
+}
+
+.CustomerService h3 {
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 561px) {
+    .CustomerService > .Text {
+        margin: 1rem 0rem 0rem 7rem;
+    }
+}
+
+@media (min-width: 702px) {
+    .CustomerService {
+        display: flex;
+    }
+
+    .CustomerService > .Text {
+        margin: 2rem 0rem 0rem 35rem;
+    }
+
+}
+

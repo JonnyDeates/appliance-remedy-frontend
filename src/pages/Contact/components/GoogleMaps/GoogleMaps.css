@@ -1,0 +1,22 @@
+.GoogleMaps {
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    text-align: center;
+}
+.GoogleMaps h2 {
+    font-size: xx-large;
+}
+.GoogleMaps .MapContainer {
+    width: 100%;
+
+    margin: 0 auto;
+    height: 400px;
+}
+@media (min-width: 562px) {
+    .GoogleMaps .MapContainer {
+        width: 90% !important;
+        border-radius: 1rem;
+    }
+
+}

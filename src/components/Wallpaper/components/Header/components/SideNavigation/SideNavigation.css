@@ -1,0 +1,50 @@
+.SideNavigation {
+    position: fixed;
+    left: 0;
+    background-color: #ffffff99;
+    height: 100vh;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    width: 210px;
+    backdrop-filter: blur(7px);
+    animation: slide-in 1s forwards;
+}
+
+.SideNavigation a{
+    padding: 1rem;
+    font-size: x-large;
+    list-style-type: circle;
+    list-style-position: inside;
+    height: fit-content;
+    width: fit-content;
+    text-decoration: unset;
+    color: black;
+    cursor: pointer;
+}
+.SideNavigation a:first-child {
+    padding-top: 6rem;
+}
+.SideNavigation a:last-child {
+    padding-bottom: 4rem;
+}
+.Backdrop {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+}
+@keyframes slide-in {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+        backdrop-filter: blur(10px);
+    }
+}

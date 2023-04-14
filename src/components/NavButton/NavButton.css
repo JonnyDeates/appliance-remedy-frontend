@@ -1,0 +1,24 @@
+.NavButton {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: unset;
+    cursor: pointer;
+    background-color: seashell;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3), 2px 2px 2px rgba(0,0,0,0.2), 4px 4px 6px rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+    color: #af0104;
+    font-weight: 800;
+    text-decoration: unset;
+    transition: background-color .6s, color .6s;
+}
+.NavButton:hover {
+    background-color: #af0104 !important;
+    color: seashell;
+}
+
+.NavButton:active {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset;
+}
+.ButtonWrapper .NavButton {
+    font-size: 1.5rem;
+}

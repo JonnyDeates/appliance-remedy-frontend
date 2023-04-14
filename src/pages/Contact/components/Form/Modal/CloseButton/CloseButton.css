@@ -1,0 +1,19 @@
+.CloseButton {
+    padding: 4px 8px;
+    border: unset;
+    border-radius: 4px;
+    background-color: gainsboro;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow:  rgba(0,0,0,0.3) 1px 1px, rgba(0,0,0,0.05) 2px 2px;
+}
+.CloseButton:hover {
+    background-color: #fcabab;
+}
+.CloseButton:active {
+    background-color: #fcabab;
+    box-shadow:  unset
+}

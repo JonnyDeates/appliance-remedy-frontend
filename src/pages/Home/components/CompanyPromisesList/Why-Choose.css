@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.Why-Choose {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    background-color: #af0104;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+.Why-Choose h1 {
+    text-decoration: underline;
+    text-underline-offset: .27em;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.Why-Choose li{
+    margin: 2rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+.Why-Choose .Button {
+    margin-top: 1rem;
+}
+
+

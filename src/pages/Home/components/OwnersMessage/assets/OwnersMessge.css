@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.Owners-Message {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 0;
+    position: relative;
+    background-position: center;
+}
+.Owners-Message h4 {
+    padding-top: 1rem;
+    margin-top: 0;
+}
+.Owners-Message > div {
+    z-index: 1;
+}
+.Owners-Message .Content, .Owners-Message .Picture {
+    display: block;
+    position: relative;
+}
+.Owners-Message .Content {
+    padding-left: 2rem;
+}
+.Owners-Message .Content p {
+    padding: 0 1rem;
+}
+@media (min-width: 562px) {
+    .Owners-Message {
+        background-size: cover;
+    }
+}
+@media (min-width: 702px) {
+    .Owners-Message {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .Owners-Message .Content {
+        align-self: center;
+    }
+    .Owners-Message h4 {
+        padding-top: 3rem;
+    }
+    .Owners-Message .Content p {
+        padding: 0 1rem;
+        font-size: large;
+    }
+
+    .Owners-Message .Picture {
+        margin: auto 0;
+        display: flex;
+    }
+}

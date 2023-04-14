@@ -1,0 +1,13 @@
+.AboutBanner{
+    margin: auto 0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.AboutBanner image {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    bottom: 5rem;
+    width: 100%;
+}

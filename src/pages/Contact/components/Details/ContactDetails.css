@@ -1,0 +1,14 @@
+.ContactDetails {
+    font-size: 1.3rem;
+}
+.ContactDetails .BusinessHours {
+    margin-top: 2rem;
+}
+.ContactDetails .BusinessHours > p{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.ContactDetails .BusinessHours > p:first-child{
+    padding: 0;
+}

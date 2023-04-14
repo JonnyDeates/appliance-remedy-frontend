@@ -1,0 +1,21 @@
+.Video > div {
+    transition: background-image 1s;
+}
+.Video .ButtonWrapper {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

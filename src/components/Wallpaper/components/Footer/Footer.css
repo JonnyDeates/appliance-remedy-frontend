@@ -1,0 +1,82 @@
+footer.Footer {
+    min-height: 200px;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #af0104;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+.Footer .logos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2rem 0;
+
+}
+.Footer .logos img{
+    width: 50px;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+.Footer .services {
+    padding: 1rem 0 0 0rem;
+    width: 80%;
+
+}
+.Footer .services span {
+    display: flex;
+    justify-content: space-between;
+}
+.Footer .services a{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+.Footer .services ul {
+    padding-inline-start: unset;
+}
+.Footer .services li {
+    margin: 4px 0;
+    display: block;
+}
+
+.Footer .services p {
+    margin: 4px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Footer .services .contact {
+    margin: 1rem 0 4px 0;
+    display: block;
+    font-size: large;
+    text-decoration: unset;
+}
+.Footer .services .BusinessHours {
+    margin: 1rem 0;
+}
+@media (min-width: 562px) {
+    .Footer .services {
+        width: 40%;
+        text-align: left;
+        max-width: 320px;
+    }
+}
+@media (min-width: 702px){
+    .Footer .services, .Footer .logos {
+        width: 30%;
+    }
+    .Footer .logos {
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .Footer .logos img{
+        width: 75px;
+        height: 75px;
+        filter: brightness(0) invert(1);
+    }
+}

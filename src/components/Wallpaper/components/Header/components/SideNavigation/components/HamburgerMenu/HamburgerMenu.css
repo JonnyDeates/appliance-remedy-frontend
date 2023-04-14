@@ -1,0 +1,44 @@
+.HamburgerMenu {
+    position: fixed;
+    left: 1rem;
+    top: 2rem;
+    z-index: 100;
+    display: block;
+    width: 51px;
+    height: 51px;
+    padding: 9px 5px;
+    border-radius: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #af0104;
+    color: #ecf0f1;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4), 2px 2px 2px rgba(0,0,0,0.2), 4px 4px 6px rgba(0,0,0,0.1);
+}
+.HamburgerMenu .line{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+    display: block;
+    margin: 4px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.HamburgerMenu:hover{
+    cursor: pointer;
+}
+.HamburgerMenu.is-active .line:nth-child(1),
+.HamburgerMenu.is-active .line:nth-child(3){
+    width: 23px;
+}
+
+.HamburgerMenu.is-active .line:nth-child(1){
+    transform: translateX(-5px) rotate(-45deg);
+}
+
+.HamburgerMenu.is-active .line:nth-child(3){
+    transform: translateX(-5px) rotate(45deg);
+}

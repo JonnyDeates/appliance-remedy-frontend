@@ -1,0 +1,46 @@
+header.Header {
+    padding: .5rem 0;
+    background-color: seashell;
+    margin: 0;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.4), 4px 4px 4px rgba(0, 0, 0, 0.2), 6px 6px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+}
+.Header.isMobile {
+    display: flex;
+    justify-content: center;
+}
+.Header .Logo {
+    margin: 0 0 auto 0 ;
+    width: fit-content;
+    text-align: center;
+}
+
+.Logo > img {
+    width: 150px;
+    height: 90px;
+}
+
+.Header h2 {
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #af0104;
+}
+@media (min-width: 561px) {
+    header.Header {
+        padding: 0;
+    }
+
+    .Header .Logo {
+        padding: .5rem;
+        justify-content: space-between;
+        display: flex;
+        width: auto;
+    }
+    .Header h2 {
+        margin: auto 1rem 0 0 ;
+        font-size: x-large;
+    }
+}
+

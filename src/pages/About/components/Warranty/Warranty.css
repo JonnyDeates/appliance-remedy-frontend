@@ -1,0 +1,26 @@
+.Warranty{
+    background-color: #af0104;
+    display: grid;
+    min-height: 40vh;
+
+}
+.Warranty h1 {
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    text-underline-offset: 0.27em;
+}
+
+.Warranty h3 {
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+}
+
+.Warranty img {
+    display: block;
+    width: 7em;
+    height: 6em;
+    margin: 2em auto 2em auto;
+    filter: brightness(0) invert(1);
+}

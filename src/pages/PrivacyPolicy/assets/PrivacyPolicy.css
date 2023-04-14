@@ -1,0 +1,32 @@
+.PrivacyPolicy {
+    min-height: 80vh;
+    background-color: seashell;
+    text-align: center;
+}
+.PrivacyPolicy h1 {
+    font-size: xx-large;
+    margin-bottom: 1rem;
+    color: #af0104;
+}
+.PrivacyPolicy p {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+
+}
+.PrivacyPolicy p.PolicyHeader {
+    color: #af0104;
+    margin: 1rem auto 0 auto;
+    padding: 0.5rem;
+
+}
+.PrivacyPolicy .NavButton {
+    margin: 2rem 0;
+    color: seashell;
+    background-color: #af0104;
+}
+.PrivacyPolicy .NavButton:hover {
+    color: seashell;
+    background-color: #ffabae !important;
+}

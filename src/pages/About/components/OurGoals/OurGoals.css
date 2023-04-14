@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.OurGoals {
+    background-color: seashell;
+    display: grid;
+    min-height: 500px;
+
+}
+
+.OurGoals h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OurGoals ul {
+    margin: 0;
+    padding-bottom: 5rem;
+}
+
+.OurGoals li {
+    font-family: 'Montserrat', sans-serif;
+    margin: 3rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 702px) {
+    .OurGoals {
+        display: flex;
+        justify-content: space-around;
+
+    }
+}

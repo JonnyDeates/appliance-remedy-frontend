@@ -1,0 +1,32 @@
+.ContactUs {
+    min-height: 100vh;
+    background-color: seashell;
+}
+.ContactUs h1 {
+    text-align: center;
+    background-color: seashell;
+    margin: 0;
+    padding: 2rem 1rem;
+}
+.ContactUs > div:first-child {
+    height: 150px;
+    padding-top: 140px;
+}
+.ContactUs .content {
+    background-color: seashell;
+    padding: 0 1rem 1rem 1rem;
+
+}
+@media (min-width: 702px) {
+    .ContactUs .content{
+        display: flex;
+        justify-content: center;
+    }
+    .ContactUs .content > div, .ContactUs .content > form {
+        width: 50%;
+        max-width: 450px;
+    }
+    .ContactUs .content > div{
+        padding: 1rem 2rem 1rem 1rem;
+    }
+}

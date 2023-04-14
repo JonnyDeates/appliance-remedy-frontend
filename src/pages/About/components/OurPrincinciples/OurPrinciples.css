@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.OurPrinciples {
+    display: grid;
+    background-color: seashell;
+}
+
+.OurPrinciples h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding: 0 1rem;
+
+}
+
+.OurPrinciples p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+    text-align: left;
+    padding: 1rem;
+}
+
+
+@media (min-width: 561px) {
+    .OurPrinciples p {
+        line-height: 3rem;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (min-width: 702px) {
+    .OurPrinciples {
+        justify-content: space-around;
+
+        display: flex;
+    }
+
+    .OurPrinciples > .Text {
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+}

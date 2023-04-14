@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.ServiceName {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ServiceName ul, .ServiceName .Brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    margin-block: unset;
+    padding-inline-start: unset;
+}
+.ServiceName .Brands {
+    max-width: 700px;
+}
+.ServiceName .RepairCard {
+    margin: auto 0;
+    min-height: 35vh;
+}
+
+.ServiceName .RepairCards img {
+    font-weight: bold;
+    margin: .5rem .5rem 0 .5rem;
+    list-style-type: none;
+    border-radius: 4rem;
+    /*background-color: gainsboro;*/
+    /*background-color: #af0104;*/
+    /*background-color: white;*/
+    /*background-color: gainsboro;*/
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: white;
+    cursor: pointer;
+    transition: transform 1.2s;
+}
+.ServiceName .RepairCards img:hover {
+transform: scale(1.4);
+}
+.ServiceName .RepairCard span {
+    margin: auto 1rem;
+
+}
+.ServiceName .RepairCards {
+    margin: auto 0;
+}
+.ServiceName .RepairCards img{
+    width: 150px;
+    border-radius: 1rem;
+  }
+  .ServiceName .RepairCard .Brands img{
+    height: 50px;
+    margin: 1rem;
+}
+
+.ServiceName h1 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 0 1rem;
+    border-bottom: 2px solid black;
+}
+.ServiceName > div:first-child{
+    opacity: .4;
+}
+
+
+
+

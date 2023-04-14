@@ -1,0 +1,21 @@
+
+.RatingGroup {
+    display: flex;
+}
+.RatingGroup {
+    cursor: default;
+    padding: 0 0.1em;
+    font-size: 1rem;
+    color: orange;
+    padding-top: 1rem;
+
+}
+@media (min-width: 561px){
+    .RatingGroup {
+        cursor: default;
+        padding: 0 0.1em;
+        font-size: 3rem;
+        color: orange;
+
+    }
+}

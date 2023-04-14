@@ -1,0 +1,57 @@
+.AboutUsHomePage {
+    background-color: seashell;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    max-height: 50vh !important;
+    overflow: hidden;
+}
+
+.AboutUsHomePage .Content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.AboutUsHomePage .ButtonGroup {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.AboutUsHomePage .NavButton {
+    background-color: white;
+    margin: 1rem ;
+}
+.AboutUsHomePage .NavButton:last-child {
+    background-color: #af0104;
+    color: white !important;
+
+}
+.AboutUsHomePage .NavButton:last-child:hover {
+    background-color: white !important;
+    color: #af0104 !important;
+}
+.AboutUsHomePage h1 {
+    padding: 0 2rem;
+    margin: 0;
+    font-size: x-large;
+}
+.AboutUsHomePage p {
+    margin: 0;
+    padding: 1rem 2rem;
+}
+@media (min-width: 562px) {
+    .AboutUsHomePage > div {
+        width: 50%;
+    }
+    .AboutUsHomePage h1 {
+        font-size: xx-large;
+    }
+    .AboutUsHomePage p {
+        margin: 0;
+        padding: 1rem 2rem;
+        font-size: large;
+    }
+    .AboutUsHomePage .NavButton {
+        margin: 1rem 2rem ;
+    }
+}

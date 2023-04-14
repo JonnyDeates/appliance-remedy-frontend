@@ -1,0 +1,22 @@
+.PhoneButton {
+    position: fixed;
+    right: 1rem;
+    top: 2rem;
+    z-index: 100;
+    display: block;
+    width: 51px;
+    height: 51px;
+    padding: 1px;
+    border-radius: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #af0104;
+    color: #ecf0f1;
+    text-align: center;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4), 2px 2px 2px rgba(0,0,0,0.2), 4px 4px 6px rgba(0,0,0,0.1);
+}
+.PhoneButton img {
+    width: 50px;
+    color: white;
+}
